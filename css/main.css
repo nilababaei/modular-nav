@@ -28,10 +28,6 @@ body {
   margin: 0;
 }
 
-ul {
-  display: inline-block;
-}
-
 h1 {
   text-align: center;
 }
@@ -62,13 +58,17 @@ li:hover {
 }
 
 a:hover {
-  color: white;
+  color: #fff;
 }
 
 @media only screen and (min-width: 38em) {
 
   ul {
     text-align: right;
+  }
+
+  h1 {
+    text-align: left;
   }
 
 }
